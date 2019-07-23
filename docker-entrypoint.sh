@@ -5,7 +5,7 @@ args=("$@")
 case "${1}" in
     "manage")
         shift
-        exec python ./__main__.py
+        exec python ./${ENTRY_PY_FILE_NAME}.py
         ;;
     "bash")
         shift
