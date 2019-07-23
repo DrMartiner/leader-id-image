@@ -3,7 +3,7 @@ FROM python:3.6.6
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV WORK_DIR="/app"
 ENV USER=app
-ENV GROUP=sitegroup
+ENV GROUP=appgroup
 
 RUN mkdir -p ${WORK_DIR}
 WORKDIR ${WORK_DIR}
